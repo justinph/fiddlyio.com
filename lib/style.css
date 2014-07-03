@@ -147,7 +147,7 @@ ul.listing h2{
 }
 
 
-ul.listing li{
+ul.listing > li{
 	display: block;
 	float: left;
 	width: 440px;
@@ -155,8 +155,6 @@ ul.listing li{
 }
 ul.listing li img{
 	border: 1px solid #fff;
-	-moz-box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
-	-webkit-box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
 	box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
 }
 
@@ -164,15 +162,11 @@ div#work ul.listing li div.external{
 	width: 440px;
 	height: 330px;
 	border: 1px solid #fff;
-	-moz-box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
-	-webkit-box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
 	box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
 	display: block;
 	background-size: 100%;
 }
 div#work ul.listing li div.external:hover{
-	-moz-box-shadow: 0px 0px 5px rgba(25, 25, 25, 1);
-	-webkit-box-shadow: 0px 0px 5px rgba(25, 25, 25, 1);
 	box-shadow: 0px 0px 5px rgba(25, 25, 25, 1);
 	border: 1px solid yellow;
 	
@@ -185,7 +179,7 @@ div#work ul.listing li div.external div{
 	background-color: rgba(25, 25, 25, 0.5);
 	margin-top: 0px;
 	padding: 40px 40px 40px 40px;
-	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
 	cursor: pointer;
 }
 
@@ -204,8 +198,6 @@ div#work ul.listing li div.external p, div#work ul.listing li div.external a.hig
 	font-weight: normal;
 	margin-bottom: 20px; /* was 20 */
 	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 }
 
 div#work ul.listing li div.external a{ color: #fff; }
@@ -259,17 +251,39 @@ ol li, ul.listing li ol li{
 	width: auto;
 }
 
-
-
+h3.rules{
+	border-bottom: 1px solid #8db4db;
+}
+.sub-list{
+	margin-top: 1em;
+}
+.sub-list li{
+	margin-bottom: 1em;
+	padding: .25em;
+	transition: background-color .3s ease-out; 
+}
+.sub-list li:hover{
+	background-color: rgba(141, 180, 219, 1);
+}
+.sub-list h4{
+	color: #376fa6;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.sub-list p{
+	margin-bottom: .25em !important;
+	color: #fff !important;
+	min-height: 0 !important;
+}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 979px) {
 	#container{
-		width: 480px;
+		width: 442px;
 	}
 	div.profiles{
 		text-align: left;
-		width: 480px;
+		width: 442px;
 		margin: 1em 0 1em;
 	}
 	
@@ -278,7 +292,7 @@ ol li, ul.listing li ol li{
 		width: 430px;
 		height: 320px;
 		padding: 5px;
-		-webkit-text-size-adjust: 125%;
+		-webkit-text-size-adjust: 110%;
 	}
 
 	div#work ul.listing li div.external a.half{
@@ -287,7 +301,19 @@ ol li, ul.listing li ol li{
 	}
 	div#work ul.listing li div.external a.half.right{ margin-left: 30px;}
 	
-	
+	div#heading h1{
+		font-size: 310%;
+	}
+	div#heading ul{
+		display: none;
+		/*padding: .75em 0; */
+	}
+	div#heading ul li{
+		font-size: 180%;
+	}
+	div.profiles a{
+		font-size: 1.5em;
+	}
 }
 
 
