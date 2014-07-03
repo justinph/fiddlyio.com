@@ -1,0 +1,14 @@
+div#work ul.listing li div.external div{
+	opacity: 0;
+	width: 430px;
+	height: 320px;
+	padding: 5px;
+	-webkit-text-size-adjust: 125%;
+}
+
+div#work ul.listing li div.external a.half{
+	width: 180px;
+	float: left;
+}
+div#work ul.listing li div.external a.half.right{ margin-left: 30px;}
+/*div#work ul.listing li div.external a.subslide{display: block;}*/

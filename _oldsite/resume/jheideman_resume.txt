@@ -1,0 +1,116 @@
+Justin Heideman 
+3038 13th Ave South, Apt 10, Minneapolis, MN 55407 
+612.386.9022 
+justin@fiddlyio.com 
+www.fiddlyio.com
+
+OBEJECTIVE 
+-- 
+Seeking employment in the field of new media, web and information
+integration design.
+
+
+EDUCATION 
+-- 
+1999 - 2004 
+Minneapolis College of Art and Design, Minneapolis, MN 
+BFA: Interactive Media, Cumulative GPA 3.69
+
+2000 Milwaukee Area Technical College, Milwaukee, WI 
+Course work in Programming, Business Management and Network Design.
+
+
+WORK EXPERIENCE 
+--
+
+2005
+Minneapolis College of Art and Design, Minneapolis, MN
+Adjunct Professor
+Teaching one class, Advanced Interactive Programming, focusing on general
+programming concepts taught within the Macromedia Director environment. 
+Additional coursework focuses on developing interactive video taught 
+within the Max / MSP environment.
+
+
+2001 - Present 
+Minneapolis College of Art and Design, Minneapolis, MN
+Academic Systems Administrator
+Responsible for server and workstation administration including updating
+and maintaining hardware and software. Developed web authoring tools
+to enable students to easily create an online portfolio. Organized and 
+deployed MacOS 9 and OS X throughout the college with the construction 
+of a web based inventory and computer management tool.
+
+
+Spring 2005
+Minneapolis College of Art and Design, Minneapolis, MN
+Adjunct Faculty, Design
+Instructed an upper-level special topics class Advanced Interactive 
+Programming.  Ten weeks of the class was spent on Lingo within 
+Macromedia Director and five weeks were spent on interactive video 
+within Max/MSP.
+
+
+2004
+Fallon Worldwide, Minneapolis, MN
+Developed and produced web sites and web based advertising for a range of
+clients and project types. Audited  design standards of competitors 
+sites.  Performed various aspects of multimedia production. 
+
+
+2002 - 2004
+MCAD DesignWorks, Minneapolis, MN 
+Designer and Developer
+Designed and implemented complete web based project management system.
+Assist designers with technical issues and consult on web and interactive 
+related projects. Lead large scale interactive performance based project 
+with a group of 25 other designers.
+
+
+AWARDS & ACHIEVEMENTS 
+--
+2004
+Speaker, Eleventh International Literacy and Education Research Network 
+Conference on Learning, Havana, Cuba
+
+2003 
+Speaker, Profile Intermedia 6, Bremen, Germany
+
+2003 
+Winner, Made at MCAD Show, MCAD Main Gallery
+
+2003 
+Selected Work, Experimental Typography Poster Show, MCAD 3rd Floor Gallery
+
+2002, 2003 
+Selected Work, Annual Poster Design Show, MCAD 2nd Floor Gallery
+
+2003 
+Honorable Mention, Minnesota AIGA Portfolio One-on-One
+
+
+OTHER EXPERIENCE 
+-- 
+
+MCAD Students in Design / AIGA President 
+Organized an open student group of designers to create a dialogue about 
+design and education. Set up fund raising, social events, exhibitions and 
+trips with and without assistance from the AIGA.
+
+MCAD Student Advisory Council Design Representative 
+Represented the MCAD Design Department  to the student government and 
+the board of trustees.
+
+Lingo Club Organizer 
+Organized and fostered a group of interactive media students, assisting 
+with projects, organizing exhibitions and giving demonstrations.
+
+
+TECHNICAL KNOWLEDGE 
+-- 
+
+Skilled in web design and development techniques, scripting technologies,
+both client and server side, and related programs. Experienced with video 
+and interactive video environments. Skilled in print based design as well
+as translating print to the web and vice versa.  Knowledgeable in UNIX 
+scripting and client / server management tools.

@@ -1,0 +1,4 @@
+# RewriteEngine on
+# RewriteCond %{SERVER_PORT} ^443$  
+# RewriteCond %{REQUEST_URI} !^/facebook_app 
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]

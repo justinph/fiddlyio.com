@@ -1,0 +1,31 @@
+/* css for fiddlyio */
+/* redefined tags */
+body
+{
+	background-color: transparent;
+	font-family: Lucida Grande,geneva,arial,helvetica,sans-serif;
+	font-size: 10px;
+	background-image: url(../images/bg_dot.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+/* ids */
+
+#critcont {
+	width: 340px;
+}
+
+
+/* classes */
+
+
+.details{
+	color: #444;
+	font-size: 9px;
+}
+
+a.details:hover{
+	border-bottom: 1px dotted #7F0505; 
+}
+

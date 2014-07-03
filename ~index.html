@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<title>Justin Heideman - Full Stack Web Developer</title>
+	<meta name="description" content="The website of full stack web developer Justin Heideman, based in Minneapolis, MN." />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+	
+	<link rel="stylesheet" href="lib/style.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="lib/shadowbox/shadowbox.css" />
+	
+	<meta name="google-site-verification" content="ZbfIlGLIBnRT-SV5e8z4eVTg-z7GK_1rn7FBtu5Plj0" />
+	<meta name="viewport" content="width = 460, user-scalable = yes" />
+	
+	<script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/shadowbox/shadowbox.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		
+		
+		jQuery(document).ready(function(){
+			//would like to use jQuery.support, but it doesn't tell me if the browser doesn't support the hover selector
+			if (navigator.userAgent.indexOf('Mobile') != -1) {
+				
+				jQuery('a.half').click(function(event){
+					event.stopImmediatePropagation();
+				});
+				
+				jQuery('div.external').toggle(
+					function(){
+						jQuery(this).children('div').first().animate({opacity:1}, 300);
+					},
+					function(){
+						jQuery(this).children('div').first().animate({opacity:0}, 300);
+					}
+				);
+			} else{
+				//no shadowbox on iPhone
+				Shadowbox.init({
+				    players:    ["img","swf"]
+				});
+			}
+			
+		});
+		
+	</script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<div id="heading" class="section">
+			<h1><span>Justin Heideman</span> is a full stack web developer</h1>
+			
+			<ul>
+				<li><span>&#8595; </span> <a href="#work">Work</a></li>
+				<li><a href="#bio">Bio</a></li>
+				<li><a href="#forHire">For hire</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			
+			<div class="profiles">
+				<a href="http://twitter.com/justinph" title="Justin Heideman on twitter">@justinph</a>
+				&middot;
+				<a href="http://github.com/justinph" title="Justin Heideman on twitter">github</a>
+				&middot;
+				<a href="http://www.linkedin.com/in/justinph" title="Justin Heideman on LinkedIn">Linkedin</a>
+			</div>
+			
+			
+			<br class="clear"/> 
+		</div>
+		
+		<div id="work" class="section">
+			<ul class="listing">
+			
+			
+				
+					<li>
+						<h3>Oliver + S</h3>
+						<div style="background-image: url('images/os.jpg');" class="external">
+							<div>
+								<p>
+									<strong>My role:</strong> Design and all development.<br /><br />
+									<strong>Details:</strong> This site was redesigned from the ground up using a responsive grid framework, making it work on phones, tablets, and all devices. Includes integrated forum, blogs, and e-commerce system. The <a href="http://oliverands.com/play/">play</a> section of the site features a kid and tablet friendly game allowing one to digitally dress paper dolls.
+
+								</p>
+
+								<a class="highlight" href="http://oliverands.com/">Visit site</a>
+
+							</div>
+						</div>
+						<p>Contemporary responsive layout meets contemporary children's sewing patterns.</p>
+					</li>
+
+			
+			
+			
+				<li>
+					<h3>Big Red Party Button</h3>
+					<div style="background-image: url('images/ppp_photo_thumb2.jpg');" class="external">
+						<div>
+							<p>
+								<strong>Details: </strong>
+								To add more posh appeal to the Walker Art Center's After Hours preview parties, I created this photobooth-on-steriods. It takes a photo of visitors, using a high-fashion ring flash, and automatically displays the photo via several projectors. Photos can also be uploaded to flickr, facebook, or other sources in real time. You can have the Big Red Party Button at your <a href="http://bigredpartybutton.com/">wedding, prom, or other event</a>.
+								
+							</p>
+							<a class='highlight half' href="http://bigredpartybutton.com/" title="Big Red Party Button">Visit site</a>
+							<a class='highlight half right' href="http://www.flickr.com/photos/walkerart/collections/72157604062675544/" title="Party People Photos">View Photos</a>
+
+							
+						</div>
+					</div>
+					<p>More than just a photobooth, available for weddings, proms and parties.</p>
+				</li>
+				
+				
+				<li>
+					<h3>Jerome Foundation</h3>
+					<div style="background-image: url('images/jerome.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Design and development.<br /><br />
+								<strong>Details:</strong> This site features a database of Jerome grantees as well as grantee news and events. The site is easy for the Jerome Foundation staff to update and manage. I worked with another Drupal developer to build the grant application portion of the site.
+							</p>
+
+							<a class="highlight" href="http://jeromefdn.org/">Visit site</a>
+
+						</div>
+					</div>
+					<p>Flexible web presence for one of Minnesota's venerable arts foundations.</p>
+				</li>
+				
+					<li>
+						<h3>The Splendid Table</h3>
+						<div style="background-image: url('images/tst.jpg');" class="external">
+							<div>
+								<p>
+									<strong>My role:</strong> Design, front-end coding.<br /><br />
+									<strong>Details:</strong> The first redesign in 15 years for this fabulous show, utilizes warm colors, patterns, 
+										and clean open typography. Includes handy wider-screen reading and clean-priting for recipes. <em>Note: I did not produce the HTML for all pages on this site, just the design and initial coding.</em>
+
+								</p>
+
+								<a class="highlight" href="http://splendidtable.publicradio.org/">Visit site</a>
+
+							</div>
+						</div>
+						<p>Public Radio's most popular cooking show.</p>
+					</li>
+				
+			
+				<li>
+					<h3>2010 01SJ Biennial</h3>
+					<div style="background-image: url('images/01sj.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Web design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								Utilizing an identity system designed by <a href="http://www.matthewrezac.org/">Matthew Rezac</a>, the third iteration of this biennial's website housed more artists, artworks than ever before. This WordPress-based site features several customizable templates, mapping, and a mobile theme. 
+							</p>
+							<a class='highlight' href="http://01sj.org" title="2010 01SJ Biennial">Visit Site</a>
+						</div>
+					</div>
+					<p>The website for the ZER01's third biennial in San Jose, CA.</p>
+				</li>
+				
+				
+				<li>
+					<h3>Walker Channel</h3>
+					<div style="background-image: url('images/channel_front_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								Created using the <a href="http://www.djangoproject.com/">Django framework</a>, this site builds a robust system for 
+								housing the lectures and talks the Walker creates. It features a robust search engine,  solr, and can import and serve video from a large number of external sources such as Amazon S3, YouTube, and Real.
+							</p>
+
+							<a class="highlight half" href="http://channel.walkerart.org">Visit site</a>
+							<a class='highlight half right' href="images/channel_front_full.jpg"  rel="shadowbox[channel]" 
+							title="Walker Channel, Home Page">Highlights</a>	
+							<a class='highlight half right subslide' href="images/channel_browse_full.jpg"  rel="shadowbox[channel]" 
+							title="Walker Channel, Browse Page">Highlights Slide 2</a>		
+							<a class='highlight half right subslide' href="images/channel_detail_full.jpg"  rel="shadowbox[channel]" 
+							title="Walker Channel, Detail Page">Highlights Slide 3</a>							
+						</div>
+					</div>
+					<p>The multimedia hub for the Walker Art Center, built using <a href="https://www.djangoproject.com/">Django</a>.</p>
+				</li>
+				
+				
+				
+
+			
+				<!--
+				<li>
+					<h3>Walker Mobile Website</h3>
+					
+					<div style="background-image: url('images/walkermobile_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								This project started as a <a href="http://en.wikipedia.org/wiki/Google#Innovation_Time_Off" title="Google - Wikipedia, the free encyclopedia">20%-time</a> project at the Walker, but developed into a full-time project. The mobile site scrapes XML data from the main Walker site and presents it in a mobile friendly format. 
+							</p>
+
+							<a class="highlight half" href="http://m.walkerart.org">Visit site</a>
+							
+							<a class='highlight half right' href="images/walkermobile_home.jpg"  rel="shadowbox[mobile]" 
+							title="Walker Mobile, Home Page">Highlights</a>	
+							<a class='highlight half right subslide' href="images/walkermobile_today.jpg"  rel="shadowbox[mobile]" 
+							title="Walker Mobile, On view today list">Highlights Slide 2</a>		
+							<a class='highlight half right subslide' href="images/walkermobile_aoc.jpg"  rel="shadowbox[mobile]" 
+							title="Walker Channel, Art on Call">Highlights Slide 3</a>	
+							<a class='highlight half right subslide' href="images/walkermobile_aoc_detail.jpg"  rel="shadowbox[mobile]" 
+							title="Walker Channel, Art on Call Detail">Highlights Slide 4</a>						
+						</div>
+					</div>
+					<p>Mobile site for the Walker Art Center, built using Google AppEngine.</p>
+				</li>
+				-->
+				
+				<li>
+						<h3>School of Visual Arts, Masters of Design Criticism</h3>
+
+						<div style="background-image: url('images/dcrit_home_thumb.jpg');" class="external">
+							<div>
+								<p>
+									<strong>My role:</strong> Web design, front- and back-end coding.<br /><br />
+									<strong>Details: </strong>
+									Working with the Walker Design Studio, I created this site to upgrade the manageability of this new design education program. The site features a dynamically sortable reading room housing a library of design criticism articles. The site is built using a custom WordPress theme and plugins.
+								</p>
+
+								<a class="highlight" href="http://dcrit.sva.edu">Visit site</a>
+
+											
+							</div>
+						</div>
+						<p>Features faculty and student profiles, a library system for contributed essays, and an event calendar.</p>
+					</li>
+				
+				<li>
+					<h3>My Yard Our Message</h3>
+					<div style="background-image: url('images/myom_winning_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Concepting, design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								The project was divided into three phases: Design, voting, and application. In the design phase, we solicited visitors to design signs for yards, as a communal political gallery. Phase two asked users to vote for the 50 best signs. Phase 3 installed and mapped the signs across the Twin Cities.
+							</p>
+							<a class='highlight' href="http://myyardourmessage.com" title="My Yard Our Message">Visit Site</a>
+							
+													
+
+						</div>
+					</div>
+					<p>A non-partisan crowd-sourced political design project, centered around the 2008 Republican National Convention.</p>
+
+				</li>
+				
+				<li>
+					<h3>Walker Cinema Teaser</h3>
+					<div style="background-image: url('images/fvteaser_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Design, media production.<br /><br />
+								<strong>Details: </strong>
+								Each month, I produce pre-roll teaser for upcoming film screenings, exhibitions, and other events. 
+								The treatment is simple to deal with the wide variety of films and mediums involved. This teaser shows  
+								while an audience takes their seats and waits for the main feature to begin. 
+							</p>
+
+							<a class='highlight' href="http://vimeo.com/moogaloop.swf"
+							 rel="shadowbox;width=600;height=398;options={flashVars:{clip_id:9144542,autoplay:1}}" 
+							title="Walker Cinema Teaser Reel">View Video Reel (0:35)</a>	
+												
+						</div>
+					</div>
+					<p>A pre-roll for the Walker Cinema showing special offers and upcoming films, updated monthly.</p>
+				</li>
+				
+				
+				<li>
+					<h3>Northern Lights</h3>
+					<div style="background-image: url('images/nl_home_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Web design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								Working with <a href="http://the-mva.com/" title="The MVA">Namdev Hardisty</a> and <a href="http://jzkcollect.blogspot.com/" title="j-zachary">J. Zachary Keenan</a> to create an identity, I designed the website for this new 
+								Twin Cities based arts organization. The web site and uses typography as it's main design element. 
+								The site is built using a custom WordPress theme.
+							</p>
+							<a class='highlight' href="http://northern.lights.mn/" title="Northern Lights">Visit Site</a>
+						</div>
+					</div>
+					<p>Website and identity for an exciting new media arts organization in Minnesota.</p>
+				</li>
+				
+				<!--
+				<li>
+					<h3>ZER01 Website</h3>
+					<div style="background-image: url('images/zero1_home_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Web design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								After two successful biennials, ZER01 wanted to grow into a larger arts organization. I worked with them to create a website for the organization. This site split off the blog from the separate biennials. The site is built on WordPress MU and features a custom plugins and a custom theme.
+							</p>
+							<a class='highlight' href="http://zero1.org/" title="ZER01: the art and technology network">Visit Site</a>
+						</div>
+					</div>
+					<p>An updated and extensible site for this growing Silicon Valley based new media arts organization.</p>
+				</li>
+				-->
+			
+				<li>
+					<h3>Walker Teen Programs and WACTAC</h3>
+					<div style="background-image: url('images/wactac_front_thumb.jpg');" class="external">
+						<div>
+							<p>
+								<strong>My role:</strong> Web design, front- and back-end coding.<br /><br />
+								<strong>Details: </strong>
+								To update the site for Walker's unique teen programs, I split the existing site into two parts; the business side carries info for other teen educators; and the play side is the information station for teens engaged in the activities. The design takes this split literally with a bar that visitors interact with, hiding and revealing the sides of the site.
+							</p>
+							<a class='highlight' href="http://teens.walkerart.org/" title="Teen Programs and WACTAC">Visit Site</a>
+						</div>
+					</div>
+					<p>A dynamic split personality site for the institution and teens behind the Walker Art Center Teen Arts Council.</p>
+				</li>
+			
+				<li>
+					<h3>Worlds Away: New Suburban Landscapes</h3>
+					<div style="background-image: url('images/waw_ballpork_thumb.jpg');" class="external">
+						<div style="padding-top:15px;height:275px">
+							<p>
+								<strong>My role:</strong> Web design, coding, video editing.<br /><br />
+								<strong>Details: </strong>
+								For the exhibition of the same name, this site features a lexicon of suburban sprawl terms editable by users. It also served as the staging point for a YouTube video competition in which people created stories about their suburb. Videos were displayed on a web-based TV interface in a suburban den-styled room in the exhibition.
+							</p>
+							<a class='highlight half' href="http://design.walkerart.org/worldsaway/" title="Worlds Away: New Suburban Landscapes">Visit Site</a>
+							<a class='highlight half right' href="http://www.youtube.com/watch?v=_jD2Us5GFb4" title="Tell us a story about your suburb">Watch video</a>
+							
+						</div>
+					</div>
+					<p>A YouTube video competition and editable lexicon for the terms of the suburbs.</p>
+				</li>
+				
+			
+	
+				
+				
+
+			<!--
+			Hey, you found a project in the src that I'm no longer highlighting. That's because this site has a new design, replacing the one I did 4+ years ago. 
+				<li>
+					<h3>Walker Shop</h3>
+					<div style="background-image: url('images/shop_front_thumb.jpg');" class="external">
+						<div style="padding-top:15px;height:275px">
+							<p>
+								<strong>My role:</strong> Visual design.<br /><br />
+								<strong>Details: </strong>
+								A visual overhaul to the Walker's online shopping experience. This update matches the revamped Walker Shop that debuted with the opening of the Walker's new addition in 2005.
+							</p>
+							<a class='highlight' href="http://shop.walkerart.org/" title="Walker Shop">Visit Site</a>
+
+
+						</div>
+					</div>
+					<p>Updated look and feel for the Walker's online e-commerce site.</p>
+				</li>  -->
+				<!--
+				<li>
+					<h3>Bloc Blonc</h3>
+					<div style="background-image: url('images/bb_wall_thumb.jpg');" class="external">
+						<div style="padding-top:15px;height:275px">
+							<p>
+								<strong>My role:</strong> Architecture, design, coding.<br /><br />
+								<strong>Details: </strong>
+								Working with collaborators <a href="http://pwenzel.info/" title="Biography: Paul Wenzel">Paul Wenzel</a> and <a href="http://www.facebook.com/people/Beth-Van-Dam/163000652" title="Incompatible Browser | Facebook">Beth van Dam</a>, I created a project for a 4th of July Arts festival that asked visitors to create a virtual protest. Users created a sign on provided paper, recorded their protest movements on video, and left their sign as a reminder. The footage created on a constantly changing loop of protesters.
+							</p>
+
+							<a class='highlight' href="images/bloc_blonc_wall.jpg"  rel="shadowbox[blocblonc]" 
+								title="Bloc Blonc, Wall Mural">View highlights</a> 
+							<a class='highlight subslide' href="http://vimeo.com/moogaloop.swf"
+								 rel="shadowbox[blocblonc];width=600;height=398;options={flashVars:{clip_id:9173391,autoplay:1}}" 
+								title="Bloc Blonc Virtual Protest">Virtual Protest</a>
+							<a class='highlight subslide' href="http://vimeo.com/moogaloop.swf"
+								 rel="shadowbox[blocblonc];width=600;height=398;options={flashVars:{clip_id:9173279,autoplay:1}}" 
+								title="Bloc Blonc Posters Timelapse">Posters Timelapse</a>
+							
+						</div>
+					</div>
+					<p>A video-based time-lapse community powered virtual protest.</p>
+				</li>
+				-->
+
+				
+			</ul>
+			
+		</div>
+		<br class="clear"/>
+		<div id="info">
+		
+			<ul class="listing">
+				<li id="bio">
+					<h2>Biography: <span>Justin Heideman</span></h2>
+					<p>As the headline says at the top of the page, I am a full stack web developer. That means I handle all aspects the website creation process; from design, development, to operations. I especially enjoy gnarly layout problems, hacking things with javascript, and writing back-end python</p> 
+					<p>In addition to web-related technologies, I'm fluent in the languages audio and video worlds; If it has a codec, I know what to do with it. </p>
+					<p>When I'm not creating websites, I enjoy cooking, cycling, and brewing my own beer. I don't particularly enjoy painting, electrical wiring, or other house projects, but I also do those when I'm not making websites.</p>
+					
+				</li>
+				
+				
+				<li id='forHire'>
+					<h2>For hire</h2>
+					<p>While I have a full-time job I enjoy at <a href="http://minnesota.publicradio.org/">Minnesota Public Radio</a>, I also take on occasional freelance work. I especially enjoy art and journalism related projects, and offer a discount for non-profit clients (just ask). If you have a need, contact me. My typical rate is $100 per hour, and projects I take on are usually in the $3000-$10,000 range.</p>
+				</li>
+				
+				
+				<li id='contact'>
+					<h2>Contact</h2>
+					
+					<p>Work related email:<br />
+					<a href="mailto:work@fiddlyio.com">work@fiddlyio.com</a></p>
+					
+					<p>Non-work email:<br />
+					<a href="mailto:justin@fiddlyio.com">justin@fiddlyio.com</a></p>
+					
+					<p>Phone:<br />
+					<a href="tel:1-612-293-8840">612-293-8840</a></p>
+					
+				</li>
+				
+			</ul>
+	
+		</div>
+		<br class="clear"/><br class="clear"/>
+		
+	</div>
+	
+	<!-- new server -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-611142-1";
+	urchinTracker();
+	</script>
+</body>
+</html>
