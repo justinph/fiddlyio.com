@@ -168,6 +168,7 @@ div#work ul.listing li div.external{
 	-webkit-box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
 	box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.4);
 	display: block;
+	background-size: 100%;
 }
 div#work ul.listing li div.external:hover{
 	-moz-box-shadow: 0px 0px 5px rgba(25, 25, 25, 1);
